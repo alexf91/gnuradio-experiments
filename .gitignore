@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Gnuradio generated top_block
+top_block.py
