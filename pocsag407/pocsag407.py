@@ -21,9 +21,8 @@ class TCPSource(Source):
 
     def bitstream(self):
         while True:
-            bit = self.sock.recv(1)
-            val = struct.unpack('b', bit)[0]
-            yield val
+            for bit in self.sock.recv(1024):
+                yield bit
 
 class FileSource(Source):
     def __init__(self, path):
