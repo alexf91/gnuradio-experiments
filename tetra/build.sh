@@ -16,7 +16,7 @@ make install || exit 1
 cd $BASEDIR
 git clone https://github.com/sq5bpf/osmo-tetra-sq5bpf || exit 2
 cd osmo-tetra-sq5bpf/src || exit 2
-git apply ../osmo-python2.patch
+git apply ../../osmo-python2.patch
 make -j || exit 2
 
 # Install telive
@@ -24,7 +24,7 @@ cd $BASEDIR
 git clone https://github.com/sq5bpf/telive || exit 3
 cd telive
 INSTALLDIR=$BASEDIR/install/tetra
-find ./ \( ! -regex '.*/\..*' \) -type f -exec sed -i "s@/tetra@$INSTALLDIR@" {} \;
+find ./ \( ! -regex '.*/\..*' \) -type f -exec sed -i "s@/tetra@$INSTALLDIR@" {} \; || exit 3
 make || exit 3
 mkdir $BASEDIR/install/tetra
 sh install.sh || exit 3
