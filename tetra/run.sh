@@ -21,6 +21,3 @@ sleep 5
 cd $BASEDIR//telive/gnuradio-companion
 gnuradio-companion telive_1ch_gr37.grc
 
-kill $RECEIVER_PID
-kill $RXX_PID
-kill $TETRAD_PID
