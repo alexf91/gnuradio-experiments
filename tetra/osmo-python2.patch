@@ -1,0 +1,240 @@
+diff --git a/src/demod/python-3.6/fcdp-tetra_demod.py b/src/demod/python-3.6/fcdp-tetra_demod.py
+index a8c5a59..0886485 100755
+--- a/src/demod/python-3.6/fcdp-tetra_demod.py
++++ b/src/demod/python-3.6/fcdp-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.6/fcdp-tetra_demod_fft.py b/src/demod/python-3.6/fcdp-tetra_demod_fft.py
+index e191af2..0ec9509 100755
+--- a/src/demod/python-3.6/fcdp-tetra_demod_fft.py
++++ b/src/demod/python-3.6/fcdp-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.6/osmosdr-tetra_demod_fft.py b/src/demod/python-3.6/osmosdr-tetra_demod_fft.py
+index e7413a7..0ef083f 100755
+--- a/src/demod/python-3.6/osmosdr-tetra_demod_fft.py
++++ b/src/demod/python-3.6/osmosdr-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python-3.6/simdemod2.py b/src/demod/python-3.6/simdemod2.py
+index 6b6fe2b..0c5ec96 100755
+--- a/src/demod/python-3.6/simdemod2.py
++++ b/src/demod/python-3.6/simdemod2.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # osmosdr-tetra_demod_fft.py Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python-3.6/tetra-demod.py b/src/demod/python-3.6/tetra-demod.py
+index d7d5c72..b14c405 100755
+--- a/src/demod/python-3.6/tetra-demod.py
++++ b/src/demod/python-3.6/tetra-demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.6/uhd-tetra_demod.py b/src/demod/python-3.6/uhd-tetra_demod.py
+index ac49fb7..64f7c25 100755
+--- a/src/demod/python-3.6/uhd-tetra_demod.py
++++ b/src/demod/python-3.6/uhd-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.6/usrp1-tetra_demod.py b/src/demod/python-3.6/usrp1-tetra_demod.py
+index 219594b..9033720 100755
+--- a/src/demod/python-3.6/usrp1-tetra_demod.py
++++ b/src/demod/python-3.6/usrp1-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.6/usrp2-tetra_demod.py b/src/demod/python-3.6/usrp2-tetra_demod.py
+index 57e8017..ba9e47f 100755
+--- a/src/demod/python-3.6/usrp2-tetra_demod.py
++++ b/src/demod/python-3.6/usrp2-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/fcdp-tetra_demod.py b/src/demod/python-3.7/fcdp-tetra_demod.py
+index 41b986d..d5c406b 100755
+--- a/src/demod/python-3.7/fcdp-tetra_demod.py
++++ b/src/demod/python-3.7/fcdp-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/fcdp-tetra_demod_fft.py b/src/demod/python-3.7/fcdp-tetra_demod_fft.py
+index 2dadd8c..a1d3cac 100755
+--- a/src/demod/python-3.7/fcdp-tetra_demod_fft.py
++++ b/src/demod/python-3.7/fcdp-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/osmosdr-tetra_demod_fft.py b/src/demod/python-3.7/osmosdr-tetra_demod_fft.py
+index 2f01579..0d43b3c 100755
+--- a/src/demod/python-3.7/osmosdr-tetra_demod_fft.py
++++ b/src/demod/python-3.7/osmosdr-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python-3.7/simdemod2.py b/src/demod/python-3.7/simdemod2.py
+index 4105e85..98185ef 100755
+--- a/src/demod/python-3.7/simdemod2.py
++++ b/src/demod/python-3.7/simdemod2.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # osmosdr-tetra_demod_fft.py Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python-3.7/tetra-demod.py b/src/demod/python-3.7/tetra-demod.py
+index ca8039f..d88c823 100755
+--- a/src/demod/python-3.7/tetra-demod.py
++++ b/src/demod/python-3.7/tetra-demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/uhd-tetra_demod.py b/src/demod/python-3.7/uhd-tetra_demod.py
+index 2fe852f..58ae67c 100755
+--- a/src/demod/python-3.7/uhd-tetra_demod.py
++++ b/src/demod/python-3.7/uhd-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/usrp1-tetra_demod.py b/src/demod/python-3.7/usrp1-tetra_demod.py
+index 0802a91..1405d99 100755
+--- a/src/demod/python-3.7/usrp1-tetra_demod.py
++++ b/src/demod/python-3.7/usrp1-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python-3.7/usrp2-tetra_demod.py b/src/demod/python-3.7/usrp2-tetra_demod.py
+index dd8e648..c3fc7bd 100755
+--- a/src/demod/python-3.7/usrp2-tetra_demod.py
++++ b/src/demod/python-3.7/usrp2-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/fcdp-tetra_demod.py b/src/demod/python/fcdp-tetra_demod.py
+index a8c5a59..0886485 100755
+--- a/src/demod/python/fcdp-tetra_demod.py
++++ b/src/demod/python/fcdp-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/fcdp-tetra_demod_fft.py b/src/demod/python/fcdp-tetra_demod_fft.py
+index e191af2..0ec9509 100755
+--- a/src/demod/python/fcdp-tetra_demod_fft.py
++++ b/src/demod/python/fcdp-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/osmosdr-tetra_demod_fft.py b/src/demod/python/osmosdr-tetra_demod_fft.py
+index e7413a7..0ef083f 100755
+--- a/src/demod/python/osmosdr-tetra_demod_fft.py
++++ b/src/demod/python/osmosdr-tetra_demod_fft.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python/simdemod2.py b/src/demod/python/simdemod2.py
+index 6b6fe2b..0c5ec96 100755
+--- a/src/demod/python/simdemod2.py
++++ b/src/demod/python/simdemod2.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ # osmosdr-tetra_demod_fft.py Copyright 2012 Dimitri Stolnikov <horiz0n@gmx.net>
+ 
+diff --git a/src/demod/python/tetra-demod.py b/src/demod/python/tetra-demod.py
+index d7d5c72..b14c405 100755
+--- a/src/demod/python/tetra-demod.py
++++ b/src/demod/python/tetra-demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/uhd-tetra_demod.py b/src/demod/python/uhd-tetra_demod.py
+index ac49fb7..64f7c25 100755
+--- a/src/demod/python/uhd-tetra_demod.py
++++ b/src/demod/python/uhd-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/usrp1-tetra_demod.py b/src/demod/python/usrp1-tetra_demod.py
+index 219594b..9033720 100755
+--- a/src/demod/python/usrp1-tetra_demod.py
++++ b/src/demod/python/usrp1-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
+diff --git a/src/demod/python/usrp2-tetra_demod.py b/src/demod/python/usrp2-tetra_demod.py
+index 57e8017..ba9e47f 100755
+--- a/src/demod/python/usrp2-tetra_demod.py
++++ b/src/demod/python/usrp2-tetra_demod.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python2
+ 
+ import sys
+ import math
